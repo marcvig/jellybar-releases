@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>JellyBar</title>
+        <link>https://marcvig.github.io/jellybar-releases/appcast.xml</link>
+        <description>JellyBar release feed</description>
+        <language>en</language>
+
+        <!-- TEMPLATE: Copy this <item> block for each release (newest first).
+             Run Scripts/make-dmg.sh --notarize from the jellybar source repo to get
+             sparkle:edSignature and length values. Keep prior items below for rollback. -->
+        <item>
+            <title>Version 0.2.0</title>
+            <pubDate>Mon, 16 Jun 2026 17:00:00 -0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/marcvig/jellybar-releases/releases/download/v0.2.0/JellyBar-0.2.0.dmg"
+                sparkle:edSignature="fmSBCUwcmgAUdQjC8WGPnRl/AhQLg7ImQ2qXpIpVN7kTa9BeGkR9GNSu5ihI2n5o8HQevri35ZdX+BJDYKwCDw=="
+                length="2488095"
+                type="application/octet-stream"
+            />
+        </item>
+
+    </channel>
+</rss>
