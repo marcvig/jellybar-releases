@@ -6,9 +6,23 @@
         <description>JellyBar release feed</description>
         <language>en</language>
 
-        <!-- TEMPLATE: Copy this <item> block for each release (newest first).
-             Run Scripts/make-dmg.sh --notarize from the jellybar source repo to get
-             sparkle:edSignature and length values. Keep prior items below for rollback. -->
+        <!-- TEMPLATE: copy the item block below for each release (newest first).
+             Get the sparkle:edSignature and length by running make-dmg.sh with the
+             notarize flag from the jellybar source repo. Keep prior items for rollback.
+             WARNING: never put a double hyphen inside an XML comment (e.g. a CLI flag
+             written with two dashes) — it is illegal XML and breaks the WHOLE feed,
+             so Sparkle silently fails to find any update. -->
+        <!--
+        <item>
+            <title>Version X.Y.Z</title>
+            <pubDate>Day, DD Mon YYYY HH:MM:SS -0400</pubDate>
+            <sparkle:version>BUILD</sparkle:version>
+            <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="..." sparkle:edSignature="..." length="..." type="application/octet-stream" />
+        </item>
+        -->
+
         <item>
             <title>Version 0.2.0</title>
             <pubDate>Mon, 16 Jun 2026 17:00:00 -0400</pubDate>
