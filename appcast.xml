@@ -18,6 +18,7 @@
             <pubDate>Day, DD Mon YYYY HH:MM:SS -0400</pubDate>
             <sparkle:version>BUILD</sparkle:version>
             <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://jellybar.app/changelog</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure url="..." sparkle:edSignature="..." length="..." type="application/octet-stream" />
         </item>
@@ -28,6 +29,7 @@
             <pubDate>Mon, 16 Jun 2026 17:00:00 -0400</pubDate>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://jellybar.app/changelog</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/marcvig/jellybar-releases/releases/download/v0.2.0/JellyBar-0.2.0.dmg"
