@@ -25,6 +25,21 @@
         -->
 
         <item>
+            <title>Version 0.3.1</title>
+            <pubDate>Sun, 21 Jun 2026 15:20:34 -0400</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>https://jellybar.app/changelog</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/marcvig/jellybar-releases/releases/download/v0.3.1/JellyBar-0.3.1.dmg"
+                sparkle:edSignature="F55SgMgspCIbCrJ8whplalqmFHnZ5FWHy7rmYJ55nd/DZF/Hsp6ORbYRUBzIFOCQxREEcCd8EymtvdC8r/0YDg=="
+                length="2697132"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 0.3.0</title>
             <pubDate>Fri, 19 Jun 2026 19:47:05 -0400</pubDate>
             <sparkle:version>3</sparkle:version>
