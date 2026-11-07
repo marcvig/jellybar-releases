@@ -3,3 +3,6 @@ CLAUDE.md
 
 # macOS cruft
 .DS_Store
+
+# Claude Code local settings (can hold approved commands with secrets)
+.claude/
